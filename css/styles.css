@@ -223,29 +223,29 @@ h3 {
   display: flex;
   margin-right: 15px;
 }
-.asidecontacto img ul ul img {
-  width: 40px;
-  height: 40px;
-  margin: 5px;
-  margin-top: 20px;
-}
 
 .infocontacto ul {
   display: block;
   text-align: center;
 }
-.infocontacto ul ul div {
+.infocontacto ul div {
   margin-top: 30px;
 }
-.infocontacto ul ul div a {
+.infocontacto a {
   text-decoration: none;
   color: green;
 }
-.infocontacto ul ul div a p {
+.infocontacto p {
   color: green;
 }
-.infocontacto ul ul div a p i {
+.infocontacto i {
   color: green;
+}
+
+.asidecontacto ul img{
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
 }
 
 .footercontacto {
