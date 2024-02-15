@@ -1,0 +1,31 @@
+/**inicio de catalogo de autos**/
+  
+.cardautos{
+    display: flex;
+    background: linear-gradient(green,white);
+    border: solid black 5px;
+    margin: 20px;
+    img{
+      width: 250px;
+      height: 250px;
+      h3{
+        color: black;
+        p{
+          text-align: start;
+          color: black;
+          h4{
+            text-align: end;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  
+  /**  aside de catalogo **/
+  
+  .asidecatalogo img{
+    width: 576px;
+    height: 200px;
+    border: solid black 5px;
+  }

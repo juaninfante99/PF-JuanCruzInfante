@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "RED BURGER";
+  src: url(../fonts/RED\ BURGER.otf);
+}
+body {
+  font-family: "RED BURGER";
+}
+
+header {
+  background: linear-gradient(green, black);
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/** Inicio del index mobile**/
+/**body del inicio**/
+/**Titulos del inicio**/
+h1 {
+  background-color: rgb(78, 156, 78);
+  color: black;
+  text-align: center;
+  height: 40px;
+  border: solid black 2px;
+}
+
+h2 {
+  background-color: rgb(78, 156, 78);
+  color: black;
+  text-align: center;
+  height: 40px;
+}
+
+/**Ejemplo de proceso de reparacion**/
+.procesoreparacion {
+  display: grid;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(214, 247, 214);
+  border: solid black 3px;
+  color: black;
+}
+.procesoreparacion img {
+  width: 70px;
+  height: 70px;
+}
+
+.cardreparacion {
+  border: solid black 3px;
+  margin: 10px;
+  padding-top: 10px;
+  color: black;
+  background: radial-gradient(white, green);
+}
+
+/**Propiedades del proceso de venta**/
+.procesoventa {
+  display: flex;
+  margin: 20px;
+  padding: 40px;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(214, 247, 214);
+  border: solid black 3px;
+  align-items: center;
+  color: black;
+}
+
+.cardventa {
+  height: 200px;
+  border: solid black 3px;
+  margin: 10px;
+  background: linear-gradient(green, white);
+}
+
+.asideindex {
+  background-color: black;
+}
+.asideindex a {
+  color: green;
+}
+.asideindex a p {
+  color: green;
+}
+.asideindex a p i {
+  color: green;
+}
+
+/** fin del index mobile**/
+/**Inicio de Servicios mobile**/
+/**seccion con diferentes servicios**/
+.serviciosreparacion {
+  display: grid;
+  justify-content: center;
+  background: radial-gradient(white, green);
+}
+.serviciosreparacion img {
+  width: 150px;
+  height: 150px;
+  border: solid black 2px;
+  margin-left: 10px;
+}
+
+.cardserviciosreparacion {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  width: 400px;
+  padding: 10px;
+  background-color: white;
+  border: solid black 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.cardserviciosreparacion button {
+  background-color: black;
+  color: rgb(74, 207, 74);
+}
+.cardserviciosreparacion button p {
+  background: radial-gradient(white, rgb(74, 207, 74));
+  width: 150px;
+  color: black;
+  border: solid black 2px;
+  text-align: center;
+}
+
+/** Inicio de aside servicios**/
+.asideservicios {
+  background-color: black;
+  border: white solid 5px;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+.asideservicios1 {
+  display: flex;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.asideservicios1 p {
+  font-size: 20px;
+}
+.asideservicios1 p a {
+  text-decoration: none;
+  color: rgb(74, 207, 74);
+}
+
+/**inicio de catalogo de autos**/
+.cardautos {
+  display: flex;
+  background: linear-gradient(green, white);
+  border: solid black 5px;
+  margin: 20px;
+}
+.cardautos img {
+  width: 250px;
+  height: 250px;
+}
+.cardautos img h3 {
+  color: black;
+}
+.cardautos img h3 p {
+  text-align: start;
+  color: black;
+}
+.cardautos img h3 p h4 {
+  text-align: end;
+  color: black;
+}
+
+/**  aside de catalogo **/
+.asidecatalogo img {
+  width: 576px;
+  height: 200px;
+  border: solid black 5px;
+}
+
+/** inicio de contacto **/
+.bodycontacto {
+  display: grid;
+  grid-template-areas: "header header header" "main main aside" "footer footer footer";
+}
+
+.headercontacto {
+  grid-area: header;
+}
+
+.maincontacto {
+  grid-area: main;
+  width: 376px;
+  font-size: 15px;
+  background: radial-gradient(white, rgb(74, 207, 74));
+}
+
+.asidecontacto {
+  grid-area: aside;
+  background-color: black;
+}
+.asidecontacto img {
+  width: 200px;
+}
+.asidecontacto img ul {
+  display: flex;
+  margin-right: 15px;
+}
+.asidecontacto img ul ul img {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.infocontacto ul {
+  display: block;
+  text-align: center;
+}
+.infocontacto ul ul div {
+  margin-top: 30px;
+}
+.infocontacto ul ul div a {
+  text-decoration: none;
+  color: green;
+}
+.infocontacto ul ul div a p {
+  color: green;
+}
+.infocontacto ul ul div a p i {
+  color: green;
+}
+
+.footercontacto {
+  grid-area: footer;
+}
+
+/** inicio de sobrenosotros **/
+.sobrenosotros {
+  margin: 30px;
+}
+.sobrenosotros h2 {
+  border: solid black 2px;
+  background-color: white;
+}
+.sobrenosotros h2 div {
+  background: linear-gradient(green, white);
+  border: solid black 2px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.mainsobrenosotros {
+  background: radial-gradient(white, grey);
+}
+
+.mapa {
+  display: flex;
+  border: black solid 5px;
+  background: radial-gradient(white, green);
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.mapa h3 {
+  color: black;
+}
+
+/** vista escritorio **/
+@media (min-width: 1200px) {
+  /**index escritorio**/
+  h1 {
+    height: 50px;
+  }
+  .procesoreparacion {
+    display: flex;
+    height: 250px;
+    width: 800px;
+    align-items: center;
+    margin-left: 200px;
+  }
+  .cardreparacion {
+    margin: 20px;
+  }
+  .procesoventa {
+    align-items: center;
+  }
+  .cardventa {
+    height: 100px;
+    width: 300px;
+  }
+  /**servicios escritorio**/
+  .serviciosreparacion {
+    display: grid;
+    grid-template-columns: 600px 600px;
+  }
+  .cardserviciosreparacion {
+    margin-left: 100px;
+  }
+  .asideservicios1 {
+    margin-left: 40px;
+  }
+  /** catalogo escritorio **/
+  .maincatalogo {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+  }
+  .maincatalogo img {
+    width: 350px;
+    height: 300px;
+  }
+  .cardautos {
+    display: grid;
+  }
+  .asidecatalogo img {
+    width: 1200px;
+    height: 200px;
+  }
+  /** contacto escritorio **/
+  .bodycontacto {
+    grid-template-areas: "header header header" "main main main" "aside aside aside" "footer footer footer";
+  }
+  .maincontacto {
+    width: 1200px;
+    text-align: center;
+  }
+  .asidecontacto {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  /** inicio sobrenosotros **/
+  .mapa {
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

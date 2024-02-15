@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../fonts/RED BURGER.otf">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+
+</head>
+<body class="bodycontacto">
+    <header class="headercontacto">
+
+      <nav class="navbar navbar-expand-lg">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/foto logo .jpg" alt="" width="200" height="70"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            
+            <ul class="navbar-nav">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/catalogo.html">Catalogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/sobrenosotros.html">Sobre nosotros</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+            
+
+
+    </header>
+
+
+      <main class="maincontacto">
+        <h2>SOLICITA TU TURNO</h2>
+
+    <form action="/procesar_solicitud" method="post">
+        <!-- Datos Personales -->
+        
+<div>
+         <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+</div>
+        <!-- Información del Vehículo -->
+
+ <div>
+         <label for="marca">Marca del vehículo:</label>
+        <input type="text" id="marca" name="marca" required>
+
+        <label for="modelo">Modelo del vehículo:</label>
+        <input type="text" id="modelo" name="modelo" required>
+
+        <label for="año">Año del vehículo:</label>
+        <input type="text" id="anio" name="anio" required>
+
+ </div>
+
+        <!-- Servicio Requerido -->
+ <div>
+            <label>Servicio solicitado:</label>
+            <input type="checkbox" id="mantenimiento" name="servicio" value="Mantenimiento">
+            <label for="mantenimiento">Mantenimiento regular</label>
+    
+            <input type="checkbox" id="reparacion" name="servicio" value="Reparacion">
+            <label for="reparacion">Reparación específica</label>
+    
+            <input type="checkbox" id="inspeccion" name="servicio" value="Inspeccion">
+            <label for="inspeccion">Inspección general</label>
+    
+            <input type="checkbox" id="otro" name="servicio" value="Otro">
+            <label for="otro">Otro (especificar):</label>
+            <input type="text" id="otro" name="otro_servicio">
+
+ </div>
+
+        <!-- Fecha y Hora Preferidas -->
+ <div>
+
+      <label for="fecha">Fecha de preferencia:</label>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <label for="hora">Hora de preferencia:</label>
+        <select id="hora" name="hora" required>
+            <option value="mañana">Mañana (9:00 AM - 12:00 PM)</option>
+            <option value="tarde">Tarde (1:00 PM - 5:00 PM)</option>
+            <option value="noche">Noche (6:00 PM - 8:00 PM)</option>
+        </select>
+         
+ </div>
+
+        <!-- Comentarios Adicionales -->
+ <div>
+
+        <label for="problema">Problema o síntoma específico:</label>
+        <textarea id="problema" name="problema" rows="4"></textarea>
+
+        <label for="comentarios">Comentarios adicionales:</label>
+        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+        <!-- Confirmación -->
+        <label for="confirmacion">Prefiero recibir confirmación por:</label>
+        <input type="radio" id="confirmacion_email" name="confirmacion" value="Email" required>
+        <label for="confirmacion_email">Correo electrónico</label>
+
+        <input type="radio" id="confirmacion_texto" name="confirmacion" value="Texto" required>
+        <label for="confirmacion_texto">Mensaje de texto</label>
+
+ </div>
+
+        <!-- Política de Cancelación -->
+        <p>Entiendo que debo cancelar con al menos 24 horas de anticipación si no puedo asistir al turno programado.</p>
+
+        <!-- Enviar Solicitud -->
+        <input type="submit" value="Enviar Solicitud">
+    </form>
+
+    <!-- Comentarios -->
+    <div>
+        <h2>Comentarios</h2>
+        <form>
+            <label for="user-comment">Deja tu comentario:</label>
+            <br>
+            <textarea id="user-comment" name="user-comment" rows="4" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Enviar Comentario">
+        </form>
+    </div>
+
+    </main>
+
+
+    <aside class="asidecontacto">
+
+    <div>
+      <img src="../img/foto logo servicios.jpg" alt="">
+    </div>
+
+    
+    <div class="infocontacto">
+      <ul>
+
+      <div><i>+569 9979 1639</i></div>
+      <div><p>Lunes a viernes de 09:00 hs a 17:30 hs</p></div>
+      <div><i>Puerto Montt, Parque industrial 481</i></div>
+      <div><a href="pages/contacto.html">Solicitar turno</a></div>
+      <div> <a href="pages/quienes-Somos.html">Politicas de trabajo</a></div>
+      <div><a href="pages/contacto.html">Metodos de pago</a></div>
+
+     </ul>
+    </div>
+
+  <div> 
+    <ul>
+      <img src="../img/WhatsApp-logo.jpg" alt="">
+      <img src="../img/logo instagram.jpg" alt="">
+      <img src="../img/logo fb.jpg" alt="">
+    </ul>
+  </div>
+       
+      
+
+    </aside>
+    
+
+
+    <footer class="footercontacto">
+
+      <section class="container-fluid">
+        
+      <div class="row">
+          <p class="col text-center">&copy; 2024 Mi Página Web</p>
+      </div>
+
+      </section>
+
+    </footer>
+
+
+</body>
+</html>

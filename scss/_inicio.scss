@@ -1,0 +1,80 @@
+ /** Inicio del index mobile**/
+  
+  /**body del inicio**/
+
+  /**Titulos del inicio**/
+  
+  h1{
+    background-color:rgb(78, 156, 78);
+    color: black;
+    text-align: center;
+    height:40px;
+    border: solid black 2px;
+  }
+  
+  h2{
+    background-color: rgb(78, 156, 78);
+    color: black;
+    text-align: center;
+    height:40px;
+  }
+  
+  /**Ejemplo de proceso de reparacion**/
+  
+  .procesoreparacion{
+    display: grid;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(214, 247, 214);
+    border: solid black 3px;
+    color: black;
+    img{
+      width: 70px;
+      height: 70px;
+    }
+  }
+  
+  .cardreparacion{
+    border: solid black 3px;
+    margin: 10px;
+    padding-top: 10px;
+    color: black;
+    background: radial-gradient(white,green);
+  }
+  
+  /**Propiedades del proceso de venta**/
+  
+  .procesoventa{
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(214, 247, 214);
+    border: solid black 3px;
+    align-items: center;
+    color: black;
+  }
+  
+  .cardventa{
+    height: 200px;
+    border: solid black 3px;
+    margin: 10px;
+    background: linear-gradient(green,white);
+  }
+  
+  .asideindex{
+    background-color: black;
+    a{
+      color: green;
+      p{
+        color: green;
+        i{
+          color: green;
+        }
+      }
+    }
+  }
+  
+  /** fin del index mobile**/

@@ -1,0 +1,28 @@
+*{margin: 0;
+    padding:0
+  }
+  
+@font-face {
+      font-family: "RED BURGER";
+      src: url(../fonts/RED\ BURGER.otf);
+  }
+
+body{
+    font-family: "RED BURGER";
+    }
+    
+header{
+    background:linear-gradient(green,black);
+    }
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    }
+
+footer{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }

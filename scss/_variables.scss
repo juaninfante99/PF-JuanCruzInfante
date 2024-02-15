@@ -1,0 +1,102 @@
+ /** vista escritorio **/
+  
+ @media(min-width: 1200px){
+   
+    /**index escritorio**/
+    
+    h1{
+      height: 50px;
+    }
+    
+    .procesoreparacion{
+      display: flex;
+      height: 250px;
+      width: 800px;
+      align-items: center;
+      margin-left: 200px;
+    }
+    
+    .cardreparacion{
+      margin: 20px;
+    }
+    
+    .procesoventa{
+      align-items: center;
+    }
+    
+    .cardventa{
+      height: 100px;
+      width: 300px;
+    }
+    
+    /**servicios escritorio**/
+    
+    .serviciosreparacion{
+      display: grid;
+      grid-template-columns: 600px 600px;
+    }
+    
+    .cardserviciosreparacion{
+      margin-left: 100px;
+    }
+    
+    .asideservicios1{
+      margin-left: 40px;
+    }
+    
+    /** catalogo escritorio **/
+    
+    .maincatalogo{
+      display: grid;
+      grid-template-columns: 400px 400px 400px;
+      img{
+        width: 350px;
+        height: 300px;
+      }
+    }
+    
+    .cardautos{
+      display: grid;
+    }
+    
+    .asidecatalogo img{
+      width: 1200px;
+      height: 200px;
+    }
+    
+    /** contacto escritorio **/
+    
+    .bodycontacto{
+      grid-template-areas: 
+      "header header header"
+      "main main main"
+      "aside aside aside"
+      "footer footer footer"
+      ;
+    }
+    
+    .maincontacto{
+      width: 1200px;
+      text-align: center;
+    }
+    
+    
+    .asidecontacto{
+      display: flex;
+      height: 400px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    /** inicio sobrenosotros **/
+    
+    .mapa{
+      justify-content: space-between;
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+    
+    }
+    
+    
