@@ -27,6 +27,14 @@ footer {
   align-items: center;
 }
 
+i {
+  color: green;
+}
+
+a {
+  color: green;
+}
+
 /** Inicio del index mobile**/
 /**body del inicio**/
 /**Titulos del inicio**/
@@ -94,10 +102,10 @@ h2 {
 .asideindex a {
   color: green;
 }
-.asideindex a p {
+.asideindex  p {
   color: green;
 }
-.asideindex a p i {
+.asideindex  i {
   color: green;
 }
 
@@ -176,14 +184,14 @@ h3 {
   width: 250px;
   height: 250px;
 }
-.cardautos img h3 {
+.cardautos h3 {
   color: black;
 }
-.cardautos img h3 p {
+.cardautos p {
   text-align: start;
   color: black;
 }
-.cardautos img h3 p h4 {
+.cardautos h4 {
   text-align: end;
   color: black;
 }
@@ -219,9 +227,11 @@ h3 {
 .asidecontacto img {
   width: 200px;
 }
-.asidecontacto img ul {
-  display: flex;
-  margin-right: 15px;
+.asidecontacto ul img {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  margin-right: 20px;
 }
 
 .infocontacto ul {
@@ -231,21 +241,15 @@ h3 {
 .infocontacto ul div {
   margin-top: 30px;
 }
-.infocontacto a {
+.infocontacto ul div a {
   text-decoration: none;
   color: green;
 }
 .infocontacto p {
   color: green;
 }
-.infocontacto i {
+.infocontacto i{
   color: green;
-}
-
-.asidecontacto ul img{
-  width: 40px;
-  height: 40px;
-  margin-right: 5px;
 }
 
 .footercontacto {
